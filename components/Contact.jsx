@@ -36,6 +36,7 @@ const Contact = () => {
                   <a
                     href="https://github.com/awhitebird18"
                     target="_blank"
+                    rel="noreferrer"
                     className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50"
                   >
                     <FaGithub />
