@@ -29,6 +29,7 @@ const About = () => {
             src="/../public/assets/developer.jpg"
             height={500}
             width={500}
+            alt="/"
           />
         </div>
       </div>

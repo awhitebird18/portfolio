@@ -29,7 +29,7 @@ const Shiftpoint = () => {
         />
         <div className="p-6 absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10">
           <div className="flex gap-4 items-center mb-4">
-            <Image src={brandLogo} height={60} width={60} />
+            <Image src={brandLogo} height={60} width={60} alt="/" />
             <h1 className="py-2">Shift Point</h1>
           </div>
           <h3 className="text-slate-400">React JS | Node | MongoDb</h3>
@@ -180,7 +180,7 @@ const Shiftpoint = () => {
               <h3>Features</h3>
               <ul className="p-4 flex flex-col gap-2">
                 <li>Color coding allows shifts to stand out</li>
-                <li>Move or copy shifts with Drag n' Drop</li>
+                <li>Move or copy shifts with Drag n Drop</li>
                 <li>Publish schedules at anytime</li>
                 <li>Create as many schedules as you need!</li>
               </ul>
@@ -233,7 +233,7 @@ const Shiftpoint = () => {
                 With Shift Point, you can easily assign users with just the
                 right access to ensure your time management tasks are assigned
                 appropriately. Whether they need access to our timesheets or
-                scheduler and only access to specific employees, we've got you
+                scheduler and only access to specific employees, we have got you
                 covered.
               </p>
 
@@ -260,8 +260,8 @@ const Shiftpoint = () => {
             <div>
               <h2>App Settings</h2>
               <p className="p-4">
-                Time Management is complicated and there is no "One Size Fits
-                All". That's why we offer powerful tools to capture and automate
+                Time Management is complicated and there is no one size fits
+                all. That is why we offer powerful tools to capture and automate
                 employee pay rules with an emphasis on flexibility. With our app
                 settings, you have complete control over employee pay rules and
                 can really dig into the nitty-gritty.

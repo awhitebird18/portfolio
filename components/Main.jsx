@@ -14,7 +14,7 @@ const Main = () => {
           <h1 className="py-4 text-[#5651e5]">Aaron Whitebird</h1>
           <h2 className="py-2">A Front-End Web Developer</h2>
           <p className="py-4max-w-[70%] m-auto mb-16 font-light text-gray-400">
-            I'm a front-end web developer specializing in building exceptional
+            I am a front-end web developer specializing in building exceptional
             digital experiences. Currently, I am focused on building responsive
             front-end web applications while learning back-end technologies.
           </p>
