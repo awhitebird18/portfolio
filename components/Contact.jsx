@@ -58,6 +58,7 @@ const Contact = () => {
               <form
                 name="contact"
                 data-netlify="true"
+                action="/success"
                 method="POST"
                 onSubmit="submit"
               >
