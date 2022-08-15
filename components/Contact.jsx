@@ -56,7 +56,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                name="contact"
+                name="contact-form"
                 data-netlify="true"
                 action="/success"
                 method="POST"
