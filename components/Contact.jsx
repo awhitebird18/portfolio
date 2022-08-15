@@ -55,46 +55,67 @@ const Contact = () => {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-xl rounded-xl lg:p-4">
             <div className="p-4">
-              <form data-netlify="true">
+              <form name="contact" data-netlify="true" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full pb-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label htmlFor="name" className="uppercase text-sm py-2">
+                      Name
+                    </label>
                     <input
                       className="border rounded-lg p-3 flex border-slate-700 bg-slate-900"
                       type="text"
+                      id="name"
+                      name="name"
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
                       className="border rounded-lg p-3 flex border-slate-700 bg-slate-900"
                       type="text"
+                      id="phone"
+                      name="phone"
                     />
                   </div>
                   <div className="flex flex-col py-2 col-span-full">
-                    <label className="uppercase text-sm py-2">Email</label>
+                    <label htmlFor="email" className="uppercase text-sm py-2">
+                      Email
+                    </label>
                     <input
                       className="border rounded-lg p-3 flex border-slate-700 bg-slate-900"
                       type="email"
+                      id="email"
+                      name="email"
                     />
                   </div>
                   <div className="flex flex-col py-2 col-span-full">
-                    <label className="uppercase text-sm py-2">Subject</label>
+                    <label htmlFor="subject" className="uppercase text-sm py-2">
+                      Subject
+                    </label>
                     <input
                       className="border rounded-lg p-3 flex border-slate-700 bg-slate-900"
                       type="email"
+                      id="subject"
+                      name="subject"
                     />
                   </div>
                   <div className="flex flex-col py-2 col-span-full">
-                    <label className="uppercase text-sm py-2">Message</label>
+                    <label htmlFor="message" className="uppercase text-sm py-2">
+                      Message
+                    </label>
                     <textarea
                       className="border rounded-lg p-3 border-slate-700 bg-slate-900"
                       rows="10"
+                      id="message"
+                      name="message"
                     ></textarea>
                   </div>
-                  <button className="w-full p-4 text-gray-100 mt-4 col-span-full">
+                  <button
+                    type="submit"
+                    className="w-full p-4 text-gray-100 mt-4 col-span-full"
+                  >
                     Send Message
                   </button>
                 </div>
