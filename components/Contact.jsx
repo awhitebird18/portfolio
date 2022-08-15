@@ -61,6 +61,7 @@ const Contact = () => {
                 action="/success"
                 method="POST"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="grid md:grid-cols-2 gap-4 w-full pb-2">
                   <div className="flex flex-col">
                     <label htmlFor="name" className="uppercase text-sm py-2">
