@@ -32,21 +32,18 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect with me</p>
 
-                <div className="flex items-center justify-between my-6 w-full sm:w-[80%] text-slate-50">
-                  <div className="rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 shadow-indigo-700">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 shadow-indigo-700">
+                <div className="flex gap-6 items-center justify-between max-w-[min-content] py-4">
+                  <a
+                    href="https://github.com/awhitebird18"
+                    target="_blank"
+                    className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50"
+                  >
                     <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 shadow-indigo-700">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 shadow-indigo-700">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 shadow-indigo-700">
-                    <BsFillPersonLinesFill />
+                  </a>
+                  <div className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50">
+                    <Link href="/#contact">
+                      <AiOutlineMail />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -74,7 +71,7 @@ const Contact = () => {
                       name="name"
                     />
                   </div>
-                  {/* <div className="flex flex-col">
+                  <div className="flex flex-col">
                     <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
@@ -102,7 +99,7 @@ const Contact = () => {
                     </label>
                     <input
                       className="border rounded-lg p-3 flex border-slate-700 bg-slate-900"
-                      type="email"
+                      type="text"
                       id="subject"
                       name="subject"
                     />
@@ -117,7 +114,7 @@ const Contact = () => {
                       id="message"
                       name="message"
                     ></textarea>
-                  </div> */}
+                  </div>
                   <button
                     type="submit"
                     className="w-full p-4 text-gray-100 mt-4 col-span-full"

@@ -23,7 +23,8 @@ html {
   p,
   label,
   input,
-  li {
+  li,
+  textarea {
     @apply text-slate-50;
   }
 

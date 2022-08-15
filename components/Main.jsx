@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -18,19 +19,18 @@ const Main = () => {
             digital experiences. Currently, I am focused on building responsive
             front-end web applications while learning back-end technologies.
           </p>
-          <div className="flex items-center justify-between max-w-[330px]">
-            <div className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50">
+          <div className="flex gap-6 items-center justify-between max-w-[min-content]">
+            <a
+              href="https://github.com/awhitebird18"
+              target="_blank"
+              className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50"
+            >
               <FaGithub />
-            </div>
+            </a>
             <div className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50">
-              <AiOutlineMail />
-            </div>
-
-            <div className="rounded-full shadow-lg shadow-indigo-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300 text-slate-50">
-              <BsFillPersonLinesFill />
+              <Link href="/#contact">
+                <AiOutlineMail />
+              </Link>
             </div>
           </div>
         </div>
