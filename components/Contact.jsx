@@ -58,7 +58,7 @@ const Contact = () => {
               <form
                 name="contact"
                 data-netlify="true"
-                action="/success"
+                action="/derp"
                 method="POST"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full pb-2">
