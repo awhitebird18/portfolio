@@ -55,7 +55,12 @@ const Contact = () => {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-xl rounded-xl lg:p-4">
             <div className="p-4">
-              <form name="contact" data-netlify="true" method="POST">
+              <form
+                name="contact"
+                data-netlify="true"
+                method="POST"
+                onSubmit="submit"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full pb-2">
                   <div className="flex flex-col">
                     <label htmlFor="name" className="uppercase text-sm py-2">
