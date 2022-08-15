@@ -73,7 +73,7 @@ const Contact = () => {
                       name="name"
                     />
                   </div>
-                  <div className="flex flex-col">
+                  {/* <div className="flex flex-col">
                     <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
@@ -116,7 +116,7 @@ const Contact = () => {
                       id="message"
                       name="message"
                     ></textarea>
-                  </div>
+                  </div> */}
                   <button
                     type="submit"
                     className="w-full p-4 text-gray-100 mt-4 col-span-full"
