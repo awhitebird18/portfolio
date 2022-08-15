@@ -9,6 +9,10 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div id="contact" className="w-full lg:h-screen pt-40">
       <div className="max-w-[1240px] m-auto px-2 w-full">
@@ -60,7 +64,7 @@ const Contact = () => {
                 data-netlify="true"
                 action="/success"
                 method="POST"
-                onSubmit="submit"
+                onSubmit={handleSubmit}
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full pb-2">
                   <div className="flex flex-col">
